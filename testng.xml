@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Tabinda Rana/IdeaProjects/Buyback/target">
+        <classes>
+        <class name="Main.Base">
+            <methods></methods>
+        </class>
+
+        <class name="Modules.Process">
+            <methods>
+                <include name="Sell_item"></include>
+                <include name="Select_Mobile_Category"></include>
+                <include name="select_brand"></include>
+                <include name="select_device"></include>
+                <include name="Sign_in"></include>
+                <include name="address"></include>
+                <include name="cancel_order"></include>
+
+            </methods>
+
+        </class>
+        </classes>
+    </test>
+</suite>
